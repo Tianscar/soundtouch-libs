@@ -16,6 +16,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+
+    - name: Checkout Tag
+      run: git checkout 2.3.1
     
     - name: Install gcc-multilib and g++-multilib
       run: |
@@ -37,7 +40,7 @@ jobs:
     
     - uses: actions/upload-artifact@v3
       with:
-        name: soundtouch-libs-linux-i386
+        name: soundtouch-2.3.1-libs-linux-i386
         path: |
           ${{github.workspace}}/build/libSoundTouchDLL.so
           ${{github.workspace}}/build/libSoundTouch.a
