@@ -16,9 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-
-    - name: Checkout Tag
-      run: git checkout 2.3.1
+      with:
+        ref: refs/tags/2.3.1
     
     - name: Install gcc-multilib and g++-multilib
       run: |
