@@ -36,7 +36,7 @@ jobs:
     
     - uses: actions/upload-artifact@v3
       with:
-        name: soundtouch-libs-windows-x86_64
+        name: soundtouch-libs-windows-x86
         path: |
           ${{github.workspace}}\build\MinSizeRel\SoundTouch.lib
           ${{github.workspace}}\build\MinSizeRel\SoundTouchDLL.dll
