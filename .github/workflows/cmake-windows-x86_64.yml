@@ -39,4 +39,5 @@ jobs:
         name: soundtouch-2.3.1-libs-windows-x86_64
         path: |
           ${{github.workspace}}\build\MinSizeRel\SoundTouch.lib
+          ${{github.workspace}}\build\MinSizeRel\SoundTouchDLL.lib
           ${{github.workspace}}\build\MinSizeRel\SoundTouchDLL.dll
