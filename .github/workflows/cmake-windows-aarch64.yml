@@ -40,3 +40,4 @@ jobs:
         path: |
           ${{github.workspace}}\build\MinSizeRel\SoundTouch.lib
           ${{github.workspace}}\build\MinSizeRel\SoundTouchDLL.dll
+          ${{github.workspace}}\build\MinSizeRel\SoundTouchDLL.dll.lib
