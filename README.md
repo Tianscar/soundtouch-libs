@@ -1,5 +1,5 @@
 # SoundTouch pre-built libs
-SoundTouch Version: 2.3.1
+SoundTouch Version: 2.3.2
 
 Official website: https://www.surina.net/soundtouch/  
 Official repo: https://codeberg.org/soundtouch/soundtouch  
